@@ -1,6 +1,6 @@
 # Dockerized-Classifier-Web-App-with-MongoDB-Logging
 
-This project extends the functionality of the [Dockerized Classifier Web App 2](https://github.com/AzzedineNed/Dockerized-Classifier-Web-App-with-MongoDB-Logging) by adding a MongoDB service to log predictions. The web app classifies uploaded images of cats or dogs using a pre-trained ResNet50 model and stores the classification results in a MongoDB database.
+This project extends the functionality of the [Dockerized Classifier Web App 2](https://github.com/AzzedineNed/Dockerized-Classifier-Web-App-2) by adding a MongoDB service to log predictions. The web app classifies uploaded images of cats or dogs using a pre-trained ResNet50 model and stores the classification results in a MongoDB database.
 
 ## Features
 
