@@ -49,15 +49,6 @@ To stop the running services, use the following command:
 docker-compose down
 ```
 
-### Key Files
-
-- **backend/predict.py**: Contains the Flask app logic for image classification and logging predictions to MongoDB.
-- **frontend/app.py**: The frontend Flask app for managing the image upload interface and sending the image to the backend for classification.
-- **docker-compose.yml**: Defines the Docker services (frontend, backend, and MongoDB) and their configuration.
-- **backend/Dockerfile**: Configures the backend service environment.
-- **frontend/Dockerfile**: Configures the frontend service environment.
-- **requirements.txt**: Defines the Python dependencies for the backend and frontend services.
-
 ### How the System Works
 
 - **Frontend (Flask)**: Users interact with the frontend by uploading an image through the web interface.
