@@ -38,7 +38,7 @@ This command builds all services (frontend, backend, and MongoDB) and starts the
 
 ### Step 3: Access the Application
 
-- **Frontend**: Open your web browser and go to [http://localhost:5000](http://localhost:5000) to access the upload interface.
+- **Frontend**: Open your web browser and go to http://localhost:5000 to access the upload interface.
 - **MongoDB**: Data is stored in the predictions_db database within a collection called predictions. Use any MongoDB client to query the database using the connection string mongodb://localhost:27017 (as defined in docker-compose.yml).
 
 ### Step 4: Stop the Services
